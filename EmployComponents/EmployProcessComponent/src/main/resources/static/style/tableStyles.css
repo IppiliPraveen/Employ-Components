@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@charset "UTF-8";
+.tbl{
+    background-color: #FFFFFF;
+    margin: auto;
+    position: absolute;
+    font-family: 'Trebuchet MS', sans-serif;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+	border: 1px solid #3D89F6;
+	
+}
+.th1{
+	border: 1px #3D89F6;
+	background-color: #3D89F6;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 2px;
+	height: 25px;
+}
+.box-shadow {
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin: auto;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	right: 50%;
+	width: 50%;
+	padding:25px;
+  	box-shadow: -8px 10px 5px #565759;
+ }
+ .headerStyle{
+	font-family: 'Trebuchet MS', sans-serif;
+	background-color:#477FF1;
+	border-radius: 25px;
+	box-shadow: -8px 10px 5px #565759;
+}
+.h1{
+	color: #F4EEF7;
+	border-radius: 25px;
+}
+.tr{
+	border: 1px #3D89F6;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	height: 35px;
+}
+.actionButton{
+	border: 3px solid #3D89F6;
+	font-family: 'Trebuchet MS', sans-serif;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	text-align: left;
+	color:#3D89F6;
+	border-radius: 25px;
+}
+.button {
+	border: 0px;
+	border-radius: 50px;
+	background-color: #FFFFFF;
+	color:#3D89F6;
+}
+.th, .td {
+	border: 1px #3D89F6;
+	text-align: left;
+	padding: 2px;
+	border-radius: 25px;
+	height: 25px;
+}
+input[type="text"],
+span {
+	font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #3D89F6;
+    border-radius: 25px;
+    text-align: center;
+}
+.select{
+	font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #3D89F6;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+}
+input[type="option"],
+span {
+	font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #565759;
+    border-radius: 25px;
+    text-align: center;
+}
+input[type="password"],
+span {
+	font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #3D89F6;
+    border-radius: 25px;
+    text-align: center;
+}
+.errorMsg{
+	color: rgb(255, 0, 0);
+	font-family: "Times New Roman", Times, serif;
+}
