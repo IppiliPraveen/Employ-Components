@@ -36,6 +36,7 @@ public class EmployController {
 	@Autowired
 	private LogInService logInService;
 
+//	--------------------------API START------------------------------
 	@ResponseBody
 	@GetMapping("/employList")
 	public List<Employ> employList() {

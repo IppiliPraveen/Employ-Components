@@ -11,7 +11,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.employ.components</groupId>
+		<groupId>com.employ.components</groupId>
 	 	<artifactId>EmployComponents</artifactId>
 	  	<version>0.0.1-SNAPSHOT</version>
 	  	<packaging>pom</packaging>
