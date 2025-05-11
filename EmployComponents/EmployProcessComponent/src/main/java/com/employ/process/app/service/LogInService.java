@@ -18,7 +18,7 @@ public class LogInService {
 	private static final Logger LOG = Logger.getLogger(LogInService.class.getName());
 
 	@Autowired
-	LoginRepo loginRepo;
+	private LoginRepo loginRepo;
 
 	public boolean login(String user, String password) {
 

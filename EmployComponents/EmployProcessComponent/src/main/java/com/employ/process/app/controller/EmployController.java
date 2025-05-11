@@ -27,7 +27,7 @@ import com.employ.process.app.service.LogInService;
 import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
-@CrossOrigin(origins = "http://192.168.56.108:3000")
+@CrossOrigin(origins = "http://localhost:3000")
 public class EmployController {
 	
 	@Autowired

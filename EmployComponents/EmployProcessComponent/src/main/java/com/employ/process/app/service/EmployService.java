@@ -13,7 +13,7 @@ import com.employ.process.app.repository.EmployRepo;
 public class EmployService {
 	
 	@Autowired
-	EmployRepo employRepo;
+	private EmployRepo employRepo;
 	
 	public List<Employ> getActiveEmploy() {
 
